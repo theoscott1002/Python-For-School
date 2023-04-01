@@ -13,14 +13,9 @@ class Linkedlist:
 
     def insert_at_begin(self, data):
         newNode = Node(data)
-        if self.head is None:
-            self.head = newNode
-            self.tail = newNode
-        else:
-            self.head.next = self.head
-            self.head = newNode
-            self.length += 1
-        return self
+        self.head.next = self.head
+        self.head = newNode
+        self.length += 1
 
 
 def main():
