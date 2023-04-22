@@ -1,3 +1,5 @@
+# ------Adding element at the end of a Linkedlist ---------###3
+
 class Node:
     def __init__(self, data=None, next=None):
         self.data = data
@@ -31,11 +33,7 @@ def main():
     myList.insert_at_end(15)
     myList.insert_at_end(20)
 
-    print('here', myList.head.next.next.next.data)
+    print('here', myList.head.data)
 
 
 main()
-
-
-
-
