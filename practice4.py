@@ -1,4 +1,4 @@
-# ---------Adding elements at the end of a Linkedlist -------####
+# ---------Adding elements at the beginning of a Linkedlist -------####
 
 class Node:
     def __init__(self, data=None, prev=None):
